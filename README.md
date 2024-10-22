@@ -10,5 +10,5 @@
 - Email: kevalanuvadiya8@gmail.com
 - LinkedIn: https://www.linkedin.com/in/keval-anuvadiya-web-developer
 - 🚀 Projects
-- (https://github.com/KevalAnuvadiya/Myproject) – A simple Todo List built with Django,
+- (https://github.com/KevalAnuvadiya/MyProjects) – A simple Todo List built with Django,
 - featuring user authentication and CRUD operations.
