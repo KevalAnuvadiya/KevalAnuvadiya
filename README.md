@@ -2,7 +2,7 @@
 - 👀 I'm a passionate about Front-end Web Development and Web Designing.
 - 🌱 I’m currently learning and exploring different projects to sharpen my skills in Front-end Web Development. 
 - 🛠 Skills
--  Languages: Basic JavaScript
+-  Languages: HTML, CSS, Basic JavaScript
 -  Tools and Technology: Git, GitHub, VS Code, Bootstrap, Tailwind CSS
 -  Databases: MYSQL
 - 📫 How to reach me...
