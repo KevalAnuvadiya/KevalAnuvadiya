@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exercise 03 - Make a card </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        body{
+            background-color: darkgray;
+        }
+        
+        .container{
+            background-color: snow;
+            height: 75vh;
+            width: 22vw;
+            /* box-shadow:  -9px 11px 9px 0px #b9ce95; */
+            margin: 12px auto;
+            border-radius: 15px;
+        }
+        
+        div img{
+            display: block;
+            margin: 5px auto;
+            padding: 5px;
+            border-radius: 15px;
+        }
+
+        div span{
+            border: 2px solid rgb(24, 144, 24);
+            border-radius: 7px;
+            padding: 0 11px;
+            font-size: 13px;
+        }
+
+        div span:first-child{
+            margin-left: 10px;
+        }
+
+
+        div h2{
+           margin: 15px 0 0 75px;
+        }
+
+        div p{
+            margin: 5px auto;
+            width: 90%;
+            text-align: justify;
+        }
+
+        div button{
+            display: block;
+            margin: auto;
+            cursor: pointer;
+            padding: 6px;
+            border-radius: 9px;
+            background-color: lightgreen;
+            border: 2px solid rgb(24, 144, 24);
+        }
+
+        div button:hover{
+            background-color: rgb(60, 145, 60);
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="imgS">
+            <img src="Images/img-3.jpeg" alt="CardImg" width="255">
+        </div>
+
+        <div class="infoS">
+                <span>Nature</span>
+                <span>Turtle</span>
+            
+                <h2>A Turtle</h2>
+
+                <p>A Turtle is a wonderful and precious animal which is very much important to our eco-system...</p>
+
+                <button>Read More</button>
+        </div>
+    </div>
+</body>
+</html>

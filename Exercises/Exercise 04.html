@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar with variables</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* :root{
+            --bgcolor: #31511E;
+            --color: #F6FCDF;
+            --hvcolor: #859F3D;
+            --fbold: bolder;
+        } */
+
+        /* :root{
+            --bgcolor: orange;
+            --color: white;
+            --hvcolor: #a7d134;
+            --fbold: bolder;
+        } */
+
+        :root{
+            --bgcolor: #012fc6;
+            --color: #16c5c8;
+            --hvcolor: #77b5bf;
+            --fbold: bolder;
+        }
+
+        nav{
+            background-color: var(--bgcolor);
+            padding: 23px;
+        }
+        
+        nav ul{
+            display: flex;
+        }
+
+        nav ul li{
+            list-style: none;
+        }
+
+        nav ul li a{
+            color: var(--color);
+            text-decoration: none;
+            padding: 17px;
+            padding-bottom: 0;
+            margin: 23px;
+        }
+
+        nav ul li a:hover{
+            color: var(--hvcolor);
+            border-bottom: 2px solid var(--color);
+            font-weight: var(--fbold);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

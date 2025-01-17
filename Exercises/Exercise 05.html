@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Design Challenge -Exercise</title>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+        }
+
+        :root{
+            --bgcolor: #31511E;
+            --color: #F6FCDF;
+            --hvcolor: #859F3D;
+            --fbold: bolder;
+        }
+
+        /* :root{
+            --bgcolor: orange;
+            --color: white;
+            --hvcolor: #a7d134;
+            --fbold: bolder;
+        } */
+
+        /* :root{
+            --bgcolor: #012fc6;
+            --color: #16c5c8;
+            --hvcolor: #77b5bf;
+            --fbold: bolder;
+        } */
+
+        header{
+            position: sticky;
+            top: 0;
+        }
+        nav{
+            background-color: var(--bgcolor);
+            height: 40px;
+        }
+        
+        .container{
+            border: 2px solid var(--bgcolor);
+            background-color: var(--color);
+            height: 85vh;
+            width: 90vw;
+            margin: 8px auto;
+        }
+        
+        .boxes{
+            border: 2px solid var(--bgcolor);
+            height: 70vh;
+            width: 40vw;
+            padding: 15px;
+            margin: 14px;
+        }
+
+        .box1{
+            float: left;
+        }
+
+        .box2{
+            float: right;
+        }
+
+        .logo{
+            height: 60px;
+            width: 60px;
+            background-color: var(--bgcolor);
+            color: var(--color);
+            border: 2px solid var(--color);
+            border-radius: 30px;
+            text-align: center;
+            position: fixed;
+            left: 1079px;
+            bottom: 65px;
+        }
+
+        .black-box{
+            border: 2px solid var(--bgcolor);
+            border-radius: 25px;
+            background-color: var(--color);
+            height: 10vh;
+            width: 60vw;
+            margin: 11px auto;
+            text-align: center;
+            font-size: 26px;
+            padding-top: 23px;
+        }
+
+        .footer{
+            height: 40px;
+            background-color: var(--bgcolor);
+            color: var(--color);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="boxes box1"></div>
+            <div class="boxes box2"></div>
+        </div>
+
+        <div class="black-box">
+            <p>Welcom to the site.</p>
+        </div>
+        <div class="logo"></div>
+    </main>
+
+    <footer>
+        <div class="footer"></div>
+    </footer>
+</body>
+</html>

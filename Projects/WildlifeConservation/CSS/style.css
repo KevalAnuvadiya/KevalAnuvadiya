@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    padding: 0.4rem 0.5rem;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url(../Images/img3.jfif);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.nav-list{
+    align-items: center;
+    display: flex;
+    width: 60%;
+}
+
+.logo img{
+    border: 2px solid white;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 45px;
+    margin: 0 0.3rem 0 0.4rem;
+}
+
+.nav-list li{
+    list-style: none;
+}
+
+.nav-list li a{
+    font-size: 1.1rem;
+    color: white;
+    padding: 0.75rem;
+    display: block;
+    text-decoration:  none;
+}
+
+/* .nav-list li:hover{
+    border-bottom: 3px solid rgb(9, 160, 9);
+} */
+
+.nav-list li a:hover{
+    background-color: rgb(9, 160, 9);
+    border-radius: 0.3rem;
+}
+
+.Rightnav{
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    width: 40%;
+}
+
+#rgt-nav{
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    margin-right: 0.3rem;
+    height: 2.6rem;
+    width: 21rem;
+    border: 2px solid white;
+}
+
+/* All Sections */
+.section{
+    height: 20.3rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: justify;
+}
+
+/* first Section */
+.firstSection{
+    height: 100vh;
+}
+
+.box-main{
+    height: 75%;
+    display: flex;
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.firstHalf{
+    width: 69%;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.secondHalf{
+    width: 30%;
+}
+
+.secondHalf img{
+    width: 56%;
+    border: 2px solid white;
+    border-radius: 1rem; 
+    display: block;
+    margin: auto; 
+}
+
+/* Section Left */
+.section.left{
+    flex-direction: row-reverse;
+}
+
+.fluidimg{
+    padding: 0.3rem;
+    border-radius: 1rem;
+    border: 3px solid rgb(23, 141, 23);
+    margin: 0.8rem;
+    height: 12rem;
+    width: 12rem;
+}
+
+.fluidimg:hover{
+    border: 3px solid darkgreen;
+}
+
+/* Contact Us */
+.Contact{
+    background-color: rgb(217 207 207);
+    padding: 1rem;
+    height: 30rem;
+}
+
+.Contact h3{
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 100;
+}
+
+.Inputs{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1rem;
+    width: auto;
+}
+
+.Inputs input{
+    margin: 0.7rem;
+    border-radius: 0.5rem;
+    border: 2px solid white;
+    font-size: 1rem;
+    padding: 0.7rem;
+}
+
+.Inputs textarea{
+    margin: 0.7rem;
+    border-radius: 0.5rem;
+    border: 2px solid white;
+    font-size: 1rem;
+    padding: 0.7rem;
+    height: 7rem;
+}
+
+/* for Buttons */
+.btn.btn-sm{
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    margin-right: 1rem;
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+}
+
+.btn.btn-sm:hover{
+    background-color: rgb(9, 160, 9);
+
+}
+
+.btn.btn-fh{
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    margin: 0.7rem 0.3rem 0 0;
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    width: 9rem;
+}
+    
+.btn.btn-fh:hover{
+    background-color: rgb(9, 160, 9);
+    cursor: pointer;
+}
+
+.btn-submit{
+    width: 11rem;
+    margin: 0.7rem;
+    border-radius: 0.5rem;
+    border: 2px solid white;
+    font-size: 1.1rem;
+    padding: 0.5rem 0.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-submit:hover{
+    background-color: rgb(229, 236, 229);
+    cursor: pointer;
+}
+/* for text */
+.text-big{
+    font-size: 2rem;
+}
+
+.text-small{
+    font-size: 1.3rem;
+}
+
+.para-big{
+    font-size: 1.9rem;
+}
+
+.para-small{
+    font-size: 1.1rem;
+}
+
+.text-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+    color: white;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 24px;
+}
+
+.line{
+    width: 35px;
+    background-color: white;
+    height: 4px;
+    margin: 6px 4px;
+}
+
+@media only screen and (max-width: 1016px) {
+    .nav-list{
+        flex-direction: column;
+        padding: 0.7rem;
+    }
+
+    .navbar{
+        flex-direction: column;
+        height: 458px;
+        transition: 0.9s ease-out;
+    }
+
+    .nav-list li a{
+        font-size: 1.4rem;
+        margin: 0.2rem;
+    }
+
+    .Rightnav{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+    
+    #rgt-nav{
+        margin-bottom: 0.7rem;
+        width: 90%;
+    }
+    
+    .burger{
+       display: block;
+    }
+
+    .h-nav{
+        height: 75px;
+    }
+
+    .v-class{
+        opacity: 0;
+    }
+
+    .section{
+        margin: 1rem 0;
+        width: 100%;
+    }
+}
